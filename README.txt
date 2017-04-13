@@ -6,6 +6,6 @@ Usage:
  python svgcal.py -o 2017.svg 2017
  bash svgcal-i18n-ru.sh 2017.svg
  inkscape 2017.svg
- [... add backgound ... print ]
+ [... add background ... print ]
 
 2017 zvezdochiot.
