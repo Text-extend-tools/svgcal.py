@@ -1,12 +1,12 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # svg year calendar, based calendargen.py [Copyright (c) 2015 Vlad Emelyanov, The MIT License (MIT)]
 from __future__ import unicode_literals
 
 __author__ = "Vlad Emelyanov (volshebnyi@gmail.com)"
 __modify__ = "zvezdochiot (zvezdochiot@users.sourceforge.net)"
-__version__ = "0.20170412"
-__date__ = "2017-04-12"
+__version__ = "0.20181227"
+__date__ = "2018-12-27"
 __license__ = "CC-BY"
 
 import datetime
@@ -62,41 +62,41 @@ class SvgCalendar:
         self.style = {
             'units': 'pt',
 
-            'width': 674,
-            'height': 476,
+            'width': 842,
+            'height': 595,
 
             'border-color': '#ccc',
 
             'year-color': '#666666',
-            'year-padding-top': 36,
-            'year-padding-left': 14,
+            'year-padding-top': 45,
+            'year-padding-left': 18,
             'year-font-family': font,
-            'year-font-size': 36,
+            'year-font-size': 45,
 
-            'month-width': 164,
-            'month-width-rect': 154,
-            'month-height': 144,
+            'month-width': 204,
+            'month-width-rect': 192,
+            'month-height': 180,
 
-            'day-width': 151 / 7.0,
-            'day-height': 80 / 5.0,
+            'day-width': 188 / 7.0,
+            'day-height': 100 / 5.0,
 
             'month-margin-right': 0,
             'month-margin-bottom': 0,
 
             'month-font-family': font,
-            'month-font-size': 22,
+            'month-font-size': 28,
             'month-color': '#FF9525',
-            'month-padding-top': 22,
+            'month-padding-top': 26,
 
-            'month-offset-top': 36,
+            'month-offset-top': 45,
 
-            'week-padding-top': 43,
+            'week-padding-top': 54,
             'week-font-family': font,
-            'week-font-size': 11,
+            'week-font-size': 14,
 
-            'day-padding-top': 43,
+            'day-padding-top': 54,
             'day-font-family': font,
-            'day-font-size': 12,
+            'day-font-size': 15,
 
             'day-color': '#000000',
             'day-holiday-color': '#FF0000',

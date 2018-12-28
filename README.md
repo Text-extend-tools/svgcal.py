@@ -6,14 +6,14 @@ SVG year calendar of python.
 
 Usage:
 
- python svgcal.py -o 2017.svg 2017
+ python svgcal.py -o 2019.svg 2019
  
- bash svgcal-i18n-ru.sh 2017.svg
+ bash svgcal-i18n-ru.sh 2019.svg
  
- inkscape 2017.svg
+ inkscape 2019.svg
  
- ![2017.svg](https://github.com/zvezdochiot/svgcal.py/blob/master/2017.svg)
+ ![2019.svg](./2019.svg)
  
  [... add background ... print ]
 
-2017 zvezdochiot.
+2018 zvezdochiot.
